@@ -60,5 +60,11 @@ public class Main {
         System.out.println("Вес такого спортзавтрака составляет " + breakfastWheightGr + " грамм");
         float breakfastWheightKg = breakfastWheightGr / 1000;
         System.out.println("Вес такого спортзавтрака составляет " + breakfastWheightKg + " килограмм");
+
+        byte loseWheightKg = 7;
+        int loseWheightGr = loseWheightKg * 1000;
+        int numberOfDaysMin = loseWheightGr / 250;
+        int numberOfDaysMax = loseWheightGr / 500;
+        System.out.println("Всего спортсмену потребуется от " + numberOfDaysMin + " до " + numberOfDaysMax + " дней, чтобы сбросить вес");
     }
 }
