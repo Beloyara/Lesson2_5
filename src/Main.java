@@ -39,5 +39,15 @@ public class Main {
         System.out.println("За три дня машина произвела " + machineProductivityInThreeDays + " штук бутылок");
         int machineProductivityInOneMonth = machineProductivityInOneDay * 30;
         System.out.println("За месяц машина произвела " + machineProductivityInOneMonth + " штук бутылок");
+
+        byte allColor = 120;
+        byte whiteColorOneClass = 2;
+        byte brownColorOneClass = 4;
+        int oneClass = whiteColorOneClass + brownColorOneClass;
+        int quantityClasses = allColor / oneClass;
+        int allWhiteColor = whiteColorOneClass * quantityClasses;
+        int allBrownColor = brownColorOneClass * quantityClasses;
+        System.out.println("В школе, где " + quantityClasses + " классов, нужно " + allWhiteColor + " банок белой краски и " + allBrownColor + " банок коричневой краски");
+
     }
 }
