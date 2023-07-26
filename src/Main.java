@@ -67,6 +67,28 @@ public class Main {
         int numberOfDaysMax = loseWheightGr / 500;
         System.out.println("Всего спортсмену потребуется от " + numberOfDaysMin + " до " + numberOfDaysMax + " дней, чтобы сбросить вес");
 
+        int wegesMashaOneMonth = 67760;
+        int wegeIncreaseMasha = wegesMashaOneMonth / 100 * 10;
+        int wegesMashaOneMonthNew = wegesMashaOneMonth + wegeIncreaseMasha;
+        int wegesMashaYear = wegesMashaOneMonth * 12;
+        int wegesMashaYearNew = wegesMashaOneMonthNew * 12;
+        int difference1 = wegesMashaYearNew - wegesMashaYear;
+        System.out.println("Маша теперь получает " + wegesMashaOneMonthNew + " рублей. Годовой доход вырос на " + difference1 + " рублей");
 
+        int wegesDenisOneMonth = 83690;
+        int wegeIncreaseDenis = wegesDenisOneMonth / 100 * 10;
+        int wegesDenisOneMonthNew = wegesDenisOneMonth + wegeIncreaseDenis;
+        int wegesDenisYear = wegesDenisOneMonth * 12;
+        int wegesDenisYearNew = wegesDenisOneMonthNew * 12;
+        int difference2 = wegesDenisYearNew - wegesDenisYear;
+        System.out.println("Денис теперь получает " + wegesDenisOneMonthNew + " рублей. Годовой доход вырос на " + difference2 + " рублей");
+
+        int wegesKristinaOneMonth = 76230;
+        int wegeIncreaseKristina = wegesKristinaOneMonth / 100 * 10;
+        int wegesKristinaOneMonthNew = wegesKristinaOneMonth + wegeIncreaseKristina;
+        int wegesKristinaYear = wegesKristinaOneMonth * 12;
+        int wegesKristinaYearNew = wegesKristinaOneMonthNew * 12;
+        int difference3 = wegesMashaYearNew - wegesMashaYear;
+        System.out.println("Кристина теперь получает " + wegesKristinaOneMonthNew + " рублей. Годовой доход вырос на " + difference3 + " рублей");
     }
 }
