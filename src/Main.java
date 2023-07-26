@@ -49,5 +49,16 @@ public class Main {
         int allBrownColor = brownColorOneClass * quantityClasses;
         System.out.println("В школе, где " + quantityClasses + " классов, нужно " + allWhiteColor + " банок белой краски и " + allBrownColor + " банок коричневой краски");
 
+        byte bananasWheightGr = 80;
+        int brBananasWheightGr = bananasWheightGr * 5;
+        byte milkWeightGr = 105;
+        int brMilkWeightGr = milkWeightGr * 2;
+        int brIcecreamWheightGr = 100 * 2;
+        byte eggsWheightGr = 70;
+        int brEggsWheightGr = eggsWheightGr * 4;
+        float breakfastWheightGr = brBananasWheightGr + brMilkWeightGr + brIcecreamWheightGr + brEggsWheightGr;
+        System.out.println("Вес такого спортзавтрака составляет " + breakfastWheightGr + " грамм");
+        float breakfastWheightKg = breakfastWheightGr / 1000;
+        System.out.println("Вес такого спортзавтрака составляет " + breakfastWheightKg + " килограмм");
     }
 }
