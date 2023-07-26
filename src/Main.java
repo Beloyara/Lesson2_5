@@ -21,6 +21,12 @@ public class Main {
         short fa = 27897;
         byte ga = 67;
 
-
+        byte firstClss = 23;
+        byte secondClass = 27;
+        byte thirdClsss = 30;
+        int allStudents = firstClss + secondClass + thirdClsss;
+        int allPaper = 480;
+        int paperForOneStudent = allPaper / allStudents;
+        System.out.println("На каждого ученика рассчитано " + paperForOneStudent + " листов бумаги");
     }
 }
