@@ -12,5 +12,15 @@ public class Main {
         System.out.println("Значение переменной e с типом float равно " + e);
         double f = 3.756893D;
         System.out.println("Значение переменной f с типом double равно " + f);
+
+        float aa = 27.12f;
+        long ba = 987678965549L;
+        float ca = 2.786f;
+        short da = 569;
+        short ea = -159;
+        short fa = 27897;
+        byte ga = 67;
+
+
     }
 }
