@@ -66,5 +66,7 @@ public class Main {
         int numberOfDaysMin = loseWheightGr / 250;
         int numberOfDaysMax = loseWheightGr / 500;
         System.out.println("Всего спортсмену потребуется от " + numberOfDaysMin + " до " + numberOfDaysMax + " дней, чтобы сбросить вес");
+
+
     }
 }
