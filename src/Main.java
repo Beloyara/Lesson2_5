@@ -28,5 +28,16 @@ public class Main {
         int allPaper = 480;
         int paperForOneStudent = allPaper / allStudents;
         System.out.println("На каждого ученика рассчитано " + paperForOneStudent + " листов бумаги");
+
+        byte machineProductivityInTwoMinutes = 16;
+        int machineProductivityInOneMinute = machineProductivityInTwoMinutes / 2;
+        int machineProductivity_20 = machineProductivityInOneMinute * 20;
+        System.out.println("За 20 минут машина произвела " + machineProductivity_20 + " штук бутылок");
+        int machineProductivityInOneDay = machineProductivityInOneMinute * 60 * 24;
+        System.out.println("За сутки машина произвела " + machineProductivityInOneDay + " штук бутылок");
+        int machineProductivityInThreeDays = machineProductivityInOneDay * 3;
+        System.out.println("За три дня машина произвела " + machineProductivityInThreeDays + " штук бутылок");
+        int machineProductivityInOneMonth = machineProductivityInOneDay * 30;
+        System.out.println("За месяц машина произвела " + machineProductivityInOneMonth + " штук бутылок");
     }
 }
